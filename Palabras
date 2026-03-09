@@ -1,0 +1,23 @@
+nombre = input("¿Cuál es tu nombre? ")
+edad = int(input("¿Cuántos años tienes? ")) 
+# Convertir la entrada del usuario a un número entero
+
+edad_el_proximo_ano = edad + 1
+
+print("Hola,", nombre, "¡en un año tendrás", edad_el_proximo_ano, "años!")
+#esta bien la primera tarea aqui esta la segunda
+vocales = ["a","e","i","o","u"]
+voc = 0
+
+palabra = input("Escribe una palabra random: ")
+
+for letra in palabra:
+    if letra.lower() in vocales:
+        voc += 1
+
+print("Número de vocales:", voc)
+#tarea tres
+x = 5
+x = x + 2
+x *= 3
+print(x)
